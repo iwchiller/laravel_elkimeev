@@ -4,9 +4,9 @@
 
 @section('content')
     <div class="d-flex justify-content-left align-items-center mb-3">
-        <a href="{{ route('orders.index') }}" class="btn btn-secondary mr-5">Orders</a>
-        <a href="{{ route('incomes.index') }}" class="btn btn-secondary mr-5">Incomes</a>
-        <a href="{{ route('stocks.index') }}" class="btn btn-secondary mr-5">Stocks</a>
+        <a href="{{ route('orders.index') }}" class="btn btn-secondary me-3">Orders</a>
+        <a href="{{ route('incomes.index') }}" class="btn btn-secondary me-3">Incomes</a>
+        <a href="{{ route('stocks.index') }}" class="btn btn-secondary me-3">Stocks</a>
     </div>
     <div class="d-flex justify-content-left align-items-center mb-3">
         <a href="{{ route('sales_fetch') }}" class="btn btn-primary mr-5">Fetch Sales from API</a>
