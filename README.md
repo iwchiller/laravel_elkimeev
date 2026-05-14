@@ -3,9 +3,9 @@
 DB_CONNECTION=mysql
 DB_HOST=mysql-227244.srv.hoster.ru
 DB_PORT=3306
-DB_DATABASE=svr227244_db
-DB_USERNAME=srv227244_user
-DB_PASSWORD=Iu1MGTtv3g
+DB_DATABASE=
+DB_USERNAME=
+DB_PASSWORD=
 Таблицы:
 incomes
 orders
@@ -19,8 +19,6 @@ php artisan queue:work
 приходится считывать в заголовке ответа время ожидания до следующего запроса  и ждать (Retry-After + 1) секунд
 Считывание из API производится пакетами по 500 записей и записью в БД одним запросом.
 
-Мерзликин Игорь Валерьевич
-9166425581
-@mmf2hd
+
 
 
